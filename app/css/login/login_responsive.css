@@ -18,6 +18,14 @@
 		gap: 0.9375rem;
 		padding-bottom: 2rem;
   }
+
+	body .container .login-right img {
+		align-items: center;
+		justify-content: center;
+		width: 55%;
+		height: 50%;
+		margin-top: 35%;
+	}
 }
 
 @media (max-width: 1350px) 
@@ -39,6 +47,14 @@
         flex-direction: column;
         gap: 2.1875rem;
     }
+
+		body .container .login-right img {
+			align-items: center;
+			justify-content: center;
+			width: 60%;
+			height: 40%;
+			margin-top: 45%;
+		}
 }
 
 @media (max-width: 1125px) 
@@ -58,38 +74,47 @@
 		margin-right: -10%;
 		}
 
-        body #header {
-            padding: 0.3125rem 1.875rem;
-        }
+		body #header {
+				padding: 0.3125rem 1.875rem;
+		}
 
-        body .container {
-            min-height: calc(90vh - 2.5rem * 2);
+		body .container {
+			min-height: calc(90vh - 2.5rem * 2);
 			margin-top: 4.5%;
 			display: grid;
 			grid-template-columns: 100%;
 			border-radius: 0.625rem;
 			overflow: hidden;
 			width: 90%;
-        }
-		
-        body .container .login-right {
-            display: none;
-        }
+		}
+
+		body #header ul {
+			display: none;
+	}
+
+		body #header #menu-hamburger {
+			display: inline-block;
+			margin-left: 70%;
+	}
+
+		body .container .login-right {
+				display: none;
+		}
 }
+
+@media (max-width: 925px) 
+{
+	body #header #menu-hamburger {
+		display: inline-block;
+		margin-left: 65%;
+}
+}
+
 
 @media (max-width: 768px) 
 {
 	body #header .logo {
         margin-top: 1.7%;
-    }
-
-    body #header ul {
-        display: none;
-    }
-			
-	body #header #menu-hamburger {
-        display: inline-block;
-        margin-left: 60%;
     }
 
 	body .container .login-left .login-header h1 {
@@ -110,6 +135,11 @@
         display: inline-block;
         margin-left: -10%;
     }
+
+		body #header #menu-hamburger {
+			display: inline-block;
+			margin-left: 55%;
+	}
 }
 
 @media (max-width: 670px) 
@@ -120,12 +150,18 @@
 	}
 }
 
-@media (max-width: 36.5625rem) 
+@media (max-width: 585px) 
 {
     body #header #menu-hamburger {
         display: inline-block;
     }
+
+		body #header #menu-hamburger {
+			display: inline-block;
+			margin-left: 50%;
+	}
 }
+
 
 @media (max-width: 485px) 
 {
@@ -144,7 +180,7 @@
 
     body #header #menu-hamburger {
         display: inline-block;
-        margin-left: 55%;
+        margin-left: 45%;
     }
 
     body .login-form-footer .footer-txt1 {

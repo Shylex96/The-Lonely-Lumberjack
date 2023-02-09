@@ -54,8 +54,6 @@
     justify-content: space-between;
 }
 
-
-
 .container .login-left .login-form-footer .footer-txt1, .container .login-left .login-form-footer .footer-txt2 {
     margin-left: -1.5%;
 }
@@ -149,8 +147,8 @@
     align-items: center;
     justify-content: center;
     width: 60%;
-    height: 70%;
-    margin-top: 17%;
+    height: 60%;
+    margin-top: 20%;
 }
 
 
