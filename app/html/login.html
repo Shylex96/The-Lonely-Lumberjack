@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Standart Unicode & Device Scale-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Title, Author, Description, Logo-->
+	<title>The Lonely Lumberjack - Log in</title>
+	<meta name="author" content="Esteban Albarrán Tirado | Alias: Shylex"/>
+	<meta name="description" content="This is a website game where you have to click in order to obtain resources as a lumberjack.">
+	<link rel="shortcut icon" type="image/png" href="/app/resources/img/favicon.png">
+	<link rel="stylesheet" href="/app/dist/css/login/login.css">
+</head>
+
+<body>
+	<header id="header">
+		<a target="_blank" href="home.html" class="logo">Forest</a>
+		<img id="menu-hamburger" src="/app/resources/img/menuHamburger.png" alt="Menu Icon"></img>
+		<nav id="menu">
+			<ul>
+				<li><a target="_blank" href="home.html">Home</a></li>
+				<li><a href="login.html" class="active">Play</a></li>
+				<li><a href="#">Register</a></li>	
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="login-left">
+			<div class="login-header">
+				<h1>Welcome to<br> Lonely Lumberjack</h1>
+				<p>Please, log in to use the platform.</p>
+			</div>
+			<form class="login-form">
+				<div class="login-form-content">
+					<div class="form-item">
+						<label for="username">Enter Username</label>
+						<input type="text" id="nick">
+					</div>
+					<div class="form-item">
+						<label for="password">Enter Password</label>
+						<input type="password" id="password">
+					</div>
+					<div class="alreadyAcc">
+						<label for="alreadyAccount"><b>New here?</b></label>
+						<a class="registerText" href="register.html"><b>Register now!</b></a>
+					</div>
+					<div class="form-item">
+						<div class="checkbox">
+							<input type="checkbox" id="rememberMeCheckbox" checked>
+							<label for="rememberMeCheckbox" class="checkboxLabel">Remember me</label>
+						</div>
+					</div>
+					<button type="submit">Login</button>
+				</div>
+				<div class="login-form-footer">
+					<a href="#">
+						<img width="30" src="/app/resources/img/facebook_logo.png" alt="Facebook Logo">
+						<span class="footer-txt1">Facebook</span> 
+						<span class="footer-txt2">Login</span>
+					</a>
+					<a href="#">
+						<img width="30" src="/app/resources/img/google_logo.png" alt="Google Logo">
+						<span class="footer-txt1">Google</span> 
+						<span class="footer-txt2">Login</span>
+					</a>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="login-right">
+			<img src="/app/resources/img/forest-login.png" alt="Lumberjack Hello Screen">
+		</div>
+	</div>
+
+	<!--  <script src="/app/js/login.js"></script>  -->
+</body>
+</html>
