@@ -1,0 +1,142 @@
+/* ---------------- Footer Section ---------------- */
+
+footer {
+    height: 14em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background: #000;
+    justify-content: left;
+}
+
+footer .left-one-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: justify;
+}
+
+footer .left-one-footer .tittle-footer {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+footer .left-one-footer .aliasDev {
+    margin-left: 25%;
+}
+
+footer .left-two-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: justify;
+}
+
+footer .left-two-footer .location-footer {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+footer .left-two-footer .location-text {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+}
+
+footer .mid-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: justify;
+}
+
+footer .mid-footer .follow-footer {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+footer .mid-footer .social-media {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .right-one-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: justify;
+}
+
+footer .right-one-footer .title-terms {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+footer .right-one-footer .terms-footer {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .right-one-footer .privacy-footer {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .right-two-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    text-align: justify;
+}
+
+footer .right-two-footer .contact-footer {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+footer .right-two-footer .business-contact {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .right-two-footer .feedback-contact {
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-top: 1.5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .copyright-footer {
+    width: 100vw;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 5%;
+}

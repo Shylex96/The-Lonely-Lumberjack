@@ -1,0 +1,26 @@
+/* ---------------- Globals: Default Settings ---------------- */
+
+/* Root de colores */
+:root {
+	--default-color: #094b65;
+	--primary-color: #0983ab;
+	--secondary-color: #1ca852;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	background: #fff;
+	min-height: 100vh;	
+}
+
