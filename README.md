@@ -1,5 +1,5 @@
 # LumberjackWB
-Hello, my name is Esteban (Alias: Shylex) and it is one of my biggest first proyects. 
+Hello, my name is [Esteban](https://github.com/Shylex96) (Alias: Shylex) and it is one of my biggest first proyects. 
 
 First of all, I hope everyone could find enjoyable this game and if you have time, I really appreciate feedback in order to improve for other projects.
 
