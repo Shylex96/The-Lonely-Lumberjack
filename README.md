@@ -22,7 +22,7 @@ If you're interested in download this project with any purpose I really recommen
 
 I have to mention that this project has been carried out thanks to two special people.
 
-One of them is Javi (Alias: Adame98), a classmate, who was supporting me and encouraging me to continue, giving me ideas and possible solutions to reject code that I had initially discarded, giving it an outlet elsewhere.
+One of them is [Javi](https://github.com/ADAME98) (Alias: Adame98), a classmate, who was supporting me and encouraging me to continue, giving me ideas and possible solutions to reject code that I had initially discarded, giving it an outlet elsewhere.
 
 And of course, Pablo, one of my teachers who has supported me to do the project and has provided me with possible solutions when I have been stuck. Without a doubt, a great support.
 
