@@ -1,3 +1,7 @@
+# PROJECT CURRENTLY STOPPED -- THE PROJECT HAS PASSED TO MOBILE DEVELOPMENT AND IS IN THE "THE ARBOREAL PROPHECY" REPOSITORY 
+### (https://github.com/Shylex96/The-Arboreal-Prophecy)
+If you can't access the repository, it's because it's still under development and it's private.
+
 # LumberjackWB
 Hello, my name is [Esteban](https://github.com/Shylex96) (Alias: Shylex) and it is one of my biggest first proyects. 
 
